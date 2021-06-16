@@ -71,6 +71,7 @@ body {
 	text-align: center;
 	margin-bottom: 20px;
 	padding: 17px;
+	padding-right: 51px;
 	text-decoration: none;
 	font-size: 1.5rem;
 	font-weight: bold;
@@ -87,6 +88,11 @@ body {
 .link:active {
 	transform: translateY(6px);
 	box-shadow: 0px 0px #007569;
+}
+
+.link i{
+	float: left;
+	margin-left: 10px;
 }
 
 .footer {
